@@ -1,0 +1,341 @@
+html,body {
+	
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	color: #00000;
+	margin: 0;
+	
+}
+
+.div_principal {
+	
+	width: 700px;
+	margin: auto;
+	
+}
+
+.div_empresa {
+	
+	text-align: center;
+	
+}
+
+.razao_social {
+	
+	font-size: 16pt;
+	color: #286090;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+table {
+	
+	width: 100%;
+}
+
+p {
+	
+	margin: 5px;
+}
+
+.titulo {
+	
+	padding: 5px;
+	background: #ededed;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #286090;
+	text-align: center;
+	
+}
+
+.padding {
+	
+	padding: 5px;
+	
+}
+
+.recibo_nr_vl {
+	
+	border: 1px solid #999999; 
+	padding: 5px; 
+	font-size: 14px; 
+	font-weight: bold;
+	color: #990000;
+	text-align: center;
+	width: 20%;
+	float: right;
+	margin-left: 10px;
+	border-radius: 7px;
+	
+}
+
+.td_recibo_topico {
+	
+	font-weight: bold;
+	
+}
+
+.td_recibo_valor_topico {
+	
+	border: 1px solid #999999; 
+	padding: 5px; 
+	font-size: 14px;
+	border-radius: 7px;
+	
+}
+
+.data_extenso {
+	
+	padding-top: 20px;
+	text-transform: uppercase;
+	text-align: right;
+	
+}
+
+.tdTopicoTarefa {
+	background-color: #337AB7;
+	padding: 4px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16pt;
+} 
+
+.assinatura {
+	
+	width: 50%;
+	border-top: 2px solid #999999;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+	
+}
+
+.numero_oficio {
+	
+	margin-top:60px;
+	font-size: 16pt;
+	font-weight: bold;
+	
+}
+
+.empresa_oficio {
+	
+	margin-top: 100px;
+	text-transform: uppercase; 
+	font-size: 16px; 
+	font-weight: bold;
+	text-align: right;
+	
+}
+
+.usuario_oficio {
+	
+	text-transform: uppercase; 
+	font-size: 12px; 
+	font-weight: bold;
+	text-align: right;
+	margin-bottom: 30px;
+	
+}
+
+.corpo_oficio {
+	
+	margin-top: 30px;
+	
+}
+
+.corpo_oficio, .corpo_oficio p, .corpo_oficio span, .corpo_oficio strong {
+	
+	line-height: 190% !important;
+	
+}
+
+.cliente_oficio {
+
+	font-size: 16pt;
+	font-weight: bold;
+	
+}
+
+.referencia_oficio {
+
+	margin-top: 30px;
+	font-size: 12pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+}
+
+.topicoVisualizacao
+{
+	padding: 5px;
+	background-color: #E0E0E0;
+	text-align: right;
+	width: 20%;
+}
+
+.campoVisualizacao
+{
+	padding: 5px;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	text-align: left;
+}
+
+.tdListagemTopico
+{
+	font-weight: bold; 
+	background-color: #828282;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 12px;
+	text-align: left;
+}
+
+
+.table_impressao_sus {
+	
+	width: 100%; 
+	border-spacing: 0px; 
+	border-collapse: collapse; 
+	border-top: 1px solid #045980; 
+	border-right: 1px solid #045980;
+	
+}
+
+.titulo_impressao_sus {
+	
+	font-weight: bold;
+	font-size: 14pt;
+	color: #045980;
+}
+
+.topico_impressao_sus {
+	
+	font-weight: bold;
+	font-size: 7pt;
+	text-align: center;
+	color: #000000;
+	background-color: #cccccc;
+	padding: 2px;
+	border-left: 1px solid #045980; 
+	border-bottom: 1px solid #045980;
+	
+}
+
+.topico_impressao_sus_vistoria {
+	
+	font-weight: bold;
+	font-size: 7pt;
+	text-align: center;
+	color: #000000;
+	background-color: #cccccc;
+	padding: 5px;
+	border-left: 1px solid #000000; 
+	border-bottom: 1px solid #000000;
+	vertical-align: bottom;
+	
+}
+
+.campo_topico_impressao_sus {
+	
+	font-size: 7pt;
+	text-align: center;
+	color: #000000;
+	padding: 2px;
+	border-left: 1px solid #045980; 
+	border-bottom: 1px solid #045980;
+	
+}
+
+.topico_impressao_sus_vistoria_texto {
+	
+	font-weight: bold;
+	font-size: 7pt;
+	color: #000000;
+	background: transparent;
+	-ms-writing-mode: tb-rl; 
+	-webkit-writing-mode: vertical-rl;
+	-moz-writing-mode: vertical-rl;
+	-ms-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	height: 120px;
+}
+
+.resultado_topico_impressao_vistoria {
+	
+	font-size: 7pt;
+	text-align: center;
+	color: #000000;
+	background-color: #cccccc;
+	border-left: 1px solid #000000; 
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	
+}
+
+.resultado_topico_impressao_vistoria_vazio {
+	
+	border-left: 1px solid #000000; 
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	
+}
+
+.titulo_resumo_campo_impressao {
+	
+	font-size: 9pt; 
+	font-weight: bold;
+	background-color: #cccccc;
+	text-align: center;
+	border-top: 3px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	padding: 5px;
+}
+
+.tdTopicoTarefa{
+
+	background-color: #337AB7;
+	padding: 5px;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16pt;
+
+}
+
+.tdListagemTopico
+{
+	font-weight: bold; 
+	background-color: #828282;
+	color: #FFFFFF;
+	padding: 5px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.tdListagemLinha
+{
+	color: #727272;
+	padding: 2px;
+	font-size: 12px;
+	text-align: left;
+}
+
+.tdListagemLinha a
+{
+	color: #727272;
+	font-size: 12px;
+	text-align: left;
+}
+
+.trListagemLinha:nth-child(even) { background: #FFFFFF; }
+.trListagemLinha:nth-child(odd) { background: #EBE7E7; }
+
+.tdListagemLinha:hover
+{
+	background-color: #CCCCCC;
+}
